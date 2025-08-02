@@ -1,0 +1,18 @@
+.container{
+    background-color: wheat;
+}
+.container-1{
+    display: inline-block;
+    /* border: 2px solid red; */
+    padding: 40px;
+    font-size: 40px;
+    /* background-color: wheat; */
+}
+.container-2{
+    display: inline-block;
+    /* border: 2px solid red; */
+    padding: 50px;
+    font-size: 40px;
+    padding-left: 900px;
+    /* background-color: wheat; */
+}
