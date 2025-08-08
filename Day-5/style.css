@@ -1,0 +1,51 @@
+.container{
+    border: 2px solid red;
+    height: 700px;
+}
+.child-1{
+    border: 2px solid blue;
+    height: 300px;
+}
+.child-2{
+    border: 2px solid blue;
+    height: 300px;
+}
+.subchild-1{
+    display: inline-block;
+    border: 2px solid goldenrod;
+    /* height: 250px; */
+    width: 300px;
+    position: relative;
+}
+.subchild-2{
+    display: inline-block;
+    border: 2px solid goldenrod;
+    /* height: 250px; */
+    width: 300px;
+    position: relative;
+}
+.subchild-3{
+    display: inline-block;
+    border: 2px solid goldenrod;
+    /* height: 250px; */
+    width: 300px;
+    position: relative;
+}
+.subchild-4{
+    display: inline-block;
+    border: 2px solid goldenrod;
+    /* height: 250px; */
+    width: 300px;
+    position: relative;
+}
+img{
+    width: 100%;
+}
+h3{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    top: 0px;
+    margin: 0px;
+}
