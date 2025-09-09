@@ -1,0 +1,31 @@
+.container{
+    border: 2px solid red;
+    display: flex;
+    gap: 10px;
+}
+.container>*{
+    background-color: lightblue;
+}
+.container p{
+    padding: 10px;
+}
+.menu{
+    display: none;
+    font-size: 2rem;
+}
+#menu{
+    display: none;
+}
+@media  screen and (width <= 600px) and (width > 100px) {
+    .menu{
+        display: block;
+    }
+    .container{
+        display: none;
+    }
+    #menu:checked~.container{
+        display: block;
+    }
+
+}
+
